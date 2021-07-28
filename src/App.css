@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -24,15 +27,101 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  color: #444;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ================================== */
+/* ================================== */
+.ant-tabs {
+  width: 100%;
+  min-height: 100vh;
+}
+.ant-tabs-tab-btn {
+  color: #efefef;
+}
+.ant-tabs-content {
+  color: #efefef;
+}
+/* ================================== */
+/* ================================== */
+
+.exemplo {
+  border: 2px solid #efefef;
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 600px;
+  min-height: 160px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.exemplo .title {
+  position: absolute;
+  font-size: 16px;
+  right: 10px;
+  bottom: 16px;
+  opacity: 0.6;
+}
+
+code {
+  color: rgb(211, 184, 30);
+  border: 1px solid rgb(211, 184, 30);
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.bloco {
+  height: 60px;
+  width: 60px;
+  font-size: 14px;
+  position: relative;
+  border-radius: 8px;
+  background: rgba(225,225,225, 0.4);
+  border: 1px solid rgba(225, 225, 225, 1);
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+}
+.bloco:last-of-type {
+  margin-right: 0;
+}
+.bloco.red {
+  background: rgba(255,0,0, 0.4);
+  border: 1px solid rgba(255, 64, 64, 1);
+}
+.bloco.container {
+  height: auto;
+  width: auto;
+}
+
+button {
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+button:last-of-type {
+  margin-right: 0;
+}
+
+
+/* ================================== */
+/* ================================== */
+/* ======  React Reflex Page  ======= */
+.react-reflex-page {
+  padding: 20px 20px 20px 0;
+  height: 100vh;
+}
+.react-reflex-border {
+  /* border: 1px solid red; */
+  height: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0px 2px 10px #666 inset;
+}
+.reflex-container > .reflex-element {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
